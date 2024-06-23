@@ -4,7 +4,7 @@ import { createLoadingScreen } from "./sceneLoading.js";
 export class scene00 {
   constructor(engine, socket) {
     this.socket = socket;
-    this.engine = engine; // instancia da engina.
+    this.engine = engine; // instancia da engine.
     this.player = null;
     this.camera = null;
     this.dsm = new BABYLON.DeviceSourceManager(this.engine);
@@ -60,7 +60,6 @@ export class scene00 {
           this.zoom = this.camera.radius -= 20;
           this.camera.heightOffset = this.zoom - 10;
         }
-        console.log(this.zoom);
       }
     });
   }
