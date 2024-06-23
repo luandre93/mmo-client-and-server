@@ -1,0 +1,9 @@
+:root {
+  --text-shadow: 1.41px 1.41px black, 2px 0 black, 1.41px -1.41px black, 0 -2px black, -1.41px -1.41px black, -2px 0 black, -1.41px 1.41px black, 0 2px black;
+  --text-color: #333;
+  --background-filter-ground: repeating-linear-gradient(36deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 0px, transparent 2px);
+}
+
+* {
+  user-select: none;
+}

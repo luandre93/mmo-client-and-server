@@ -1,0 +1,20 @@
+{
+  "name": "client-game-js",
+  "version": "1.0.0",
+  "description": "client game",
+  "main": "main.js",
+  "author": "Jane Doe",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.1.4"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "babylonjs": "^7.3.1",
+    "babylonjs-gui": "^7.3.1",
+    "net": "^1.0.2",
+    "promise-socket": "^7.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "ServerRPG",
+    "version": "1.0.0",
+    "description": "Servidor de RPG feito em NodeJS.",
+    "author": "Luandre B. Andrade",
+    "license": "GNU General Public License (GPL)",
+    "otherInfo": "Se for utilizar o projeto, aprimore."
+}
