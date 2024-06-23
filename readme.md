@@ -1,8 +1,6 @@
 # Massive Multiplayer Cliente e Servidor
 
-- Elaboração de um servidor feito em typescript utilizando modulo TCP/IP do NodeJS.
-- Elaboração de um cliente feito em javascript, com ajuda de uma biblioteca de modelo 3d chamado Babilon JS https://www.babylonjs.com/ .
-- A finalidade do projeto foi estudar como funciona o envio de pacote entre clientes e servidor, e como servidor deve se comportar com os dados recebidos, parece algo facil falando, porem é muito mais complexo do que parece quando o projeto ganha um escopo maior de funcionalidades.
+Este projeto é um exemplo de um jogo multijogador massivo, onde um servidor em Node.js se comunica com vários clientes que utilizam Babylon.js para renderização 3D. O principal objetivo foi estudar o envio de pacotes entre clientes e servidor, bem como o comportamento do servidor ao receber esses dados. A complexidade do projeto aumenta conforme se adicionam mais funcionalidades.
 
 ### Video de Demonstração
 
@@ -10,28 +8,34 @@
 
 ---
 
-### Movimentação
+## Movimentação
 
-Utilizando as teclas **W A S D** é possivel o cubo.
-
----
-
-### Instalação e Execução
-
-Acesse as pastas dos repositórios **ClientGame** e **ServerGame** e execute npm install pelo terminal.
-
-Para executar o projeto é preciso somente executar o arquivo **runClientsAndServer.bat** que fica localizado na pasta principal.
+Utilize as teclas W A S D para mover os cubos no ambiente do jogo.
 
 ---
 
-### Configuração de Porta
+## Instalação e Execução
 
-##### Caso queira mudar a porta é preciso alterar os seguintes arquivos:
+Para executar o projeto, siga os passos abaixo:
 
-###### ClientGame -> ClientGame\src\app.net.js e alterar a porta na linha:
+1. Acesse as pastas dos repositórios **ClientGame** e **ServerGame**.
+2. Execute npm install no terminal para instalar as dependências.
+3. Para iniciar o projeto, execute o arquivo **runClientsAndServer.bat** localizado na pasta principal.
 
-> this.socket.connect({ port: 3000});
+---
+
+## Configuração de Porta
+
+Caso queira mudar a porta é preciso alterar os seguintes arquivos:
+
+#### Cliente
+
+###### No arquivo ClientGame\src\app.net.js, altere a porta na linha:
+
+`this.socket.connect({ port: 3000});`
+
+#### Servidor
 
 ###### ServerGame -> ServerGame\src\server.instance.ts e alterar a porta na linha:
 
-> private readonly PORT: number = 3000;
+`private readonly PORT: number = 3000`
