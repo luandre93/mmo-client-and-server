@@ -36,6 +36,12 @@ Caso queira mudar a porta é preciso alterar os seguintes arquivos:
 
 #### Servidor
 
-###### ServerGame -> ServerGame\src\server.instance.ts e alterar a porta na linha:
+###### No arquivo ServerGame\src\server.instance.ts e alterar a porta na linha:
 
 `private readonly PORT: number = 3000`
+
+---
+
+## Finalidade do Projeto
+
+Este projeto demonstra a complexidade e os desafios envolvidos na criação de um jogo multijogador massivo, desde a configuração básica até o envio e recebimento de dados entre clientes e servidor. Experimente e explore as diversas funcionalidades implementadas!
