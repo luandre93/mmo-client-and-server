@@ -10,13 +10,13 @@
 
 ---
 
-###Movimentação
+### Movimentação
 
 Utilizando as teclas **W A S D** é possivel o cubo.
 
 ---
 
-###Instalação e Execução
+### Instalação e Execução
 
 Acesse as pastas dos repositórios **ClientGame** e **ServerGame** e execute npm install pelo terminal.
 
@@ -24,7 +24,7 @@ Para executar o projeto é preciso somente executar o arquivo **runClientsAndSer
 
 ---
 
-###Configuração de Porta
+### Configuração de Porta
 
 ##### Caso queira mudar a porta é preciso alterar os seguintes arquivos:
 
